@@ -2,17 +2,20 @@
 
 body {
     // width: rem(1000);
-    background: rgba(255, 113, 1, 1);
 }
+
+.side-accordion {}
 
 dt {
     float: left;
+    height: rem(200);
+    background: rgba(255, 113, 1, 1);
 }
 
 dd {
     float: left;
     width: rem(800);
-    height: rem(20);
-    overflow: hidden;
-    background: rgba(255, 255, 255, 1);
+    height: rem(200);
+    overflow: scroll;
+    background: rgba(255, 178, 13, 1);
 }

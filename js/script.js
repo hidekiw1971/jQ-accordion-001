@@ -7,9 +7,9 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
 
   // a要素をclick
   $("a").click(function () {
-    $(".current").animate({ "width": "0px" }, 300);
+    $(".current").animate({ "width": "0px" }, 0);
     // click時処理
-    $($(this).attr("href")).animate({ "width": "800px" }, 300);
+    $($(this).attr("href")).animate({ "width": "800px" }, 0);
     $("dd").removeClass();
     $($(this).attr("href")).addClass("current");
     $("a").removeClass();

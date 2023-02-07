@@ -173,22 +173,21 @@ select::-ms-expand {
   display: none;
 }
 
-body {
-  background: rgb(255, 113, 1);
-}
-
 dt {
   float: left;
+  height: 200px;
+  height: 12.5rem;
+  background: rgb(255, 113, 1);
 }
 
 dd {
   float: left;
   width: 800px;
   width: 50rem;
-  height: 20px;
-  height: 1.25rem;
-  overflow: hidden;
-  background: rgb(255, 255, 255);
+  height: 200px;
+  height: 12.5rem;
+  overflow: scroll;
+  background: rgb(255, 178, 13);
 }
 
 .inner {
