@@ -173,8 +173,17 @@ select::-ms-expand {
   display: none;
 }
 
+.side-accordion {
+  display: block;
+  width: 90%;
+  height: 300px;
+  height: 18.75rem;
+  margin: 0 auto;
+}
+
 dt {
   float: left;
+  width: 5%;
   height: 200px;
   height: 12.5rem;
   background: rgb(255, 113, 1);
@@ -182,8 +191,7 @@ dt {
 
 dd {
   float: left;
-  width: 800px;
-  width: 50rem;
+  max-width: 80%;
   height: 200px;
   height: 12.5rem;
   overflow: scroll;

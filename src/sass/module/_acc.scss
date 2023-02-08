@@ -4,17 +4,25 @@ body {
     // width: rem(1000);
 }
 
-.side-accordion {}
+.side-accordion {
+    display: block;
+    width: 90%;
+    height: rem(300);
+    margin: 0 auto;
+}
 
 dt {
     float: left;
+    // width: rem(50);
+    width: 5%;
     height: rem(200);
     background: rgba(255, 113, 1, 1);
 }
 
 dd {
     float: left;
-    width: rem(800);
+    max-width: 80%;
+    // width: calc(800px - calc(50px * 4));
     height: rem(200);
     overflow: scroll;
     background: rgba(255, 178, 13, 1);
