@@ -1,3 +1,5 @@
+<img width="1387" alt="image" src="https://user-images.githubusercontent.com/99580997/219150151-51d437ae-378b-4dd9-a1f4-2bc3ec102a78.png">
+
 # 【DartSass】CodeUps課題用Gulp環境（スマホファースト）
 
 ## 環境
